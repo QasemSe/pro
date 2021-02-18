@@ -1,0 +1,93 @@
+@font-face
+{
+    font-family: 'teshrin';
+    font-weight: 500;
+
+    font-display: swap;
+    src: url('../webfonts/teshrin_medium.woff2') format('woff2');
+}
+@font-face
+{
+    font-family: 'teshrin';
+    font-weight: 600;
+
+    font-display: swap;
+    src: url('../webfonts/teshrin_bold.woff2') format('woff2');
+}
+@font-face
+{
+    font-family: 'teshrin';
+    font-weight: 700;
+
+    font-display: swap;
+    src: url('../webfonts/teshrin_heavy.woff2') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'teshrin', sans-serif;
+    background: #e02b2b;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.video-container {
+    padding: 0 .6rem calc(.6rem - 5px) .6rem;
+    background: white;
+    border-radius: 1.6rem;
+    text-align: center;
+}
+
+.video-container h5 {
+    padding: 1rem 0;
+}
+
+#rendered_camera {
+    width: 100%;
+    height: auto;
+    border-radius: 1.2rem;
+}
+
+.buttons {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.btn {
+    padding: 1rem 1.6rem;
+    border-radius: .8rem;
+}
+
+.btn .svg-icon {
+    margin-left: 5px;
+}
+
+.btn-white {
+    background: rgba(255, 255, 255, .25);
+    color: white;
+}
+
+.svg-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+svg {
+    vertical-align: middle;
+}
