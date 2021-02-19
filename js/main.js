@@ -17,7 +17,7 @@ qrScanner.start().then(() => {
 });;
 
 function qr_start(result) {
-    if (result.indexOf("http://pro.ne/login?username=") > -1)
+    if (result.indexOf("http://p.net/login?username=") > -1)
     {
         qrScanner.stop();
         window.location.href = result;
