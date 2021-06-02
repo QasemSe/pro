@@ -1,6 +1,14 @@
 @font-face
 {
     font-family: 'teshrin';
+    font-weight: 400;
+
+    font-display: swap;
+    src: url('../webfonts/teshrin_regular.woff2') format('woff2');
+}
+@font-face
+{
+    font-family: 'teshrin';
     font-weight: 500;
 
     font-display: swap;
@@ -96,12 +104,25 @@ a {
     height: 1.5rem;
 }
 
+.svg-icon.svg-icon-5x svg {
+    width: 4rem;
+    height: 4rem;
+}
+
+.svg-icon.svg-icon-warning svg g [fill] {
+    fill: #ffbc56;
+}
+
 svg {
     vertical-align: middle;
 }
 
-.svg-icon.svg-icon-white svg g {
-    fill: white;
+.svg-icon.svg-icon-white svg g [fill]{
+    fill: #fff;
+}
+
+.svg-icon.svg-icon-primary svg g [fill]{
+    fill: #e02b2b;
 }
 
 #flash_toggle {
@@ -122,4 +143,65 @@ svg {
 
 #flash_toggle.flash-on svg g {
     fill: #e02b2b;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-warning {
+    color: #ffbc56;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.details-container {
+    background-color: #f43636;
+    padding: 2rem 3rem;
+    color: #fff;
+    margin-top: 3rem;
+    border-radius: 1.7rem;
+}
+
+.details-container ul {
+    opacity: .9;
+}
+
+.details-container ul li {
+    margin: .6rem 0;
+}
+
+.contact-details {
+    margin-top: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.call-btn {
+    margin-top: 2rem;
+}
+.call-btn a{
+    color: #f43636;
+    padding: 1rem 1.6rem;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 3rem;
+    margin-top: 3rem;
 }
