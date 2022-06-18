@@ -20,6 +20,6 @@ function qr_start(result) {
     if (result.indexOf("http://p.net/login?username=") > -1)
     {
         qrScanner.stop();
-        window.location.href = result + "type=qr";
+        window.location.href = result;
     }
 }
